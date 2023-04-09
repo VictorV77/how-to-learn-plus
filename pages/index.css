@@ -15,7 +15,6 @@
 @import url(../blocks/description/description.css);
 @import url(../blocks/techniques/techniques.css);
 @import url(../blocks/video/video.css);
-@import url(../blocks/theme-dark/theme-dark.css);
 @import url(../blocks/theme-grey/theme-grey.css);
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-subtitle/section-subtitle.css);
@@ -68,6 +67,5 @@
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
-@import url(../blocks/footer/__column-link/_theme/footer__column-link_theme_dark.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 @import url(../blocks/oakley/oakley.css);

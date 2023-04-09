@@ -5,4 +5,5 @@
   flex-wrap: wrap;
   z-index: 2;
   position: relative;
+  padding-left: 0;
 }
