@@ -13,19 +13,19 @@
 
 <body class="page">
   <header class="header theme-grey">
-    <a class="logo logo_place_header" href="https://practicum.yandex.ru/" target="_blank"><img src="./images/logo_place_header.svg"
-          alt="Логотип Яндекс Практикум"></a>
+    <a class="logo logo_place_header" href="https://practicum.yandex.ru/" target="_blank"><img
+        src="./images/logo_place_header.svg" alt="Логотип Яндекс Практикум"></a>
     <h1 class="header__title">Научиться учиться</h1>
     <div class="header__square-pic rotation"></div>
     <img class="header__main-illustration" src="./images/header-image.png" alt="анимация">
-    <div >
+    <div>
       <p class="header__subtitle">Какие современные и эффективные<br>подходы к обучению вы можете<br>использовать в
         своей жизни? <a class="header__link" href="https://practicum.yandex.ru/" target="_blank">Узнать &rarr;</a></p>
     </div>
   </header>
   <main>
     <section class="description">
-      <article class="two-columns centred-block">
+      <div class="two-columns centred-block">
         <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
         <div class="two-columns__main-text">
           <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал.
@@ -39,63 +39,53 @@
             его эффективным и захватывающим.
             Эти же техники применяются на примере обучения в Практикуме.
         </div>
-      </article>
+      </div>
     </section>
     <section class="techniques centred-block">
-      <div class="section-title centred-block">
-        <h2 class="section-title__text">Техники обучения</h2>
-      </div>
-      <div class="section-subtitle centred-block">
-        <h3 class="section-subtitle__text">Пять практик от Барабары Оакли</h3>
-      </div>
-      <div class="cards centred-block">
-        <div class="cards__item">
+      <h2 class="section-title">Техники обучения</h2>
+      <p class="section-subtitle">Пять практик от Барабары Оакли</p>
+      <ul class="cards">
+        <li class="cards__item">
           <img class="cards__image" src="./images/cards-attention.png" alt="Два вида внимания">
           <h4 class="cards__title">Два вида внимания</h4>
           <p class="cards__description">Глубокие знания<br>возникают, если<br>чередовать сфокусированное и рассеянное
             мышление.</p>
-        </div>
-        <div class="cards__item">
+        </li>
+        <li class="cards__item">
           <img class="cards__image" src="./images/cards-recall.png" alt="Recall">
           <h4 class="cards__title">Recall</h4>
           <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
-        </div>
-        <div class="cards__item">
+        </li>
+        <li class="cards__item">
           <img class="cards__image" src="./images/cards-interliving.png" alt="Интерливинг">
           <h4 class="cards__title">Интерливинг</h4>
           <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
-        </div>
-        <div class="cards__item">
+        </li>
+        <li class="cards__item">
           <img class="cards__image" src="./images/cards-question.png" alt="Вопросы">
           <h4 class="cards__title">Вопросы</h4>
           <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно
             волнует.</p>
-        </div>
-        <div class="cards__item">
+        </li>
+        <li class="cards__item">
           <img class="cards__image" src="./images/cards-competence.png" alt="Иллюзия компетентности">
           <h4 class="cards__title">Иллюзия компетентности</h4>
           <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы
             владеете новой темой.</p>
-        </div>
-      </div>
+        </li>
+      </ul>
     </section>
     <section class="video">
-      <div class="section-title centred-block">
-        <h2 class="section-title__text">Видео на TED</h2>
-      </div>
-      <div class="section-subtitle centred-block">
-        <h3 class="section-subtitle__text">Для тех, кто любить прокрастенировать</h3>
-      </div>
+      <h2 class="section-title">Видео на TED</h2>
+      <p class="section-subtitle">Для тех, кто любить прокрастенировать</p>
       <div class="video__iframes centred-block">
         <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
         <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
       </div>
     </section>
-    <section class="section oakley theme-grey">
-      <div class="two-columns centred-block">
-        <div class="two-columns__brief">
-          <h3 class="two-columns__brief-text">История Барбары Оакли</h3>
-        </div>
+    <section class="oakley theme-grey">
+      <article class="two-columns centred-block">
+        <h2 class="two-columns__brief">История Барбары Оакли</h2>
         <div class="two-columns__main-text">
           <p class="two-columns__paragraph">С детства Барбаре не давалась математика. Она считала себя законченным
             гуманитарием, причём далеко не самым умным. В армии она
@@ -106,19 +96,16 @@
             трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.
           </p>
         </div>
-      </div>
+      </article>
     </section>
-    <section class="feynman section theme-grey">
-      <div class="feynman__title centred-block">
-        <h2 class="feynman__title-text">Метод Фейнмана</h2>
-      </div>
-      <h3 class="feynman__subtitle">Выучить и не забыть</h3>
+    <section class="feynman theme-grey">
+      <h2 class="feynman__title">Метод Фейнмана</h2>
+      <p class="feynman__subtitle">Выучить и не забыть</p>
       <img class="feynman__main-illustration" src="./images/feynman.png" alt="Фейнман">
       <a class="feynman__link" href="#" target="_blank">Подробнее &rarr;</a>
     </section>
     <section class="digits">
-      <div class="section-title centred-block">
-        <h2 class="section-title__text">Цифры и факты</h2>
+        <h2 class="section-title">Цифры и факты</h2>
       </div>
       <div class="section-subtitle centred-block">
         <h3 class="section-subtitle__text">Про учебу и мозг</h3>

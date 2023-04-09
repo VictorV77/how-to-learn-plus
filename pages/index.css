@@ -18,10 +18,7 @@
 @import url(../blocks/theme-dark/theme-dark.css);
 @import url(../blocks/theme-grey/theme-grey.css);
 @import url(../blocks/section-title/section-title.css);
-@import url(../blocks/section-title/__text/section-title__text.css);
 @import url(../blocks/section-subtitle/section-subtitle.css);
-@import url(../blocks/section-subtitle/__text/section-subtitle__text.css);
-@import url(../blocks/section-subtitle/__text/section-subtitle__text.css);
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
 @import url(../blocks/two-columns/__brief-text/two-columns__brieff-text.css);
@@ -35,7 +32,6 @@
 @import url(../blocks/cards/__title/cards__title.css);
 @import url(../blocks/feynman/feynman.css);
 @import url(../blocks/feynman/__title/feynman__title.css);
-@import url(../blocks/feynman/__title-text/feynman__title-text.css);
 @import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
 @import url(../blocks/feynman/__link/feynman__link.css);
 @import url(../blocks/feynman/__main-illustration/feynman__main-illustration.css);
