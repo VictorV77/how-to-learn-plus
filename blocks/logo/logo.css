@@ -1,5 +1,11 @@
 .logo {
   margin: 0;
+  display: block;
   width: 228px;
   height: 32px;
+}
+
+.logo:hover {
+  opacity: 0.3;
+  transition: opacity 1s;
 }
