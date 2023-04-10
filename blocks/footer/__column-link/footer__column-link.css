@@ -12,3 +12,7 @@
   opacity: 0.3;
   transition: opacity 1s;
 }
+
+.footer__column-link:last-child {
+  margin-bottom: 0;
+}

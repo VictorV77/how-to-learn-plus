@@ -2,11 +2,4 @@
   height: 38px;
   width: 270px;
   text-align: center;
-  display: block;
-  margin: 0;
-}
-
-.resources__logo:hover {
-  opacity: 0.3;
-  transition: opacity 1s;
 }

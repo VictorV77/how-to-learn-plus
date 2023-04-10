@@ -4,6 +4,8 @@
   max-height: 756px;
   padding-left: 64px;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   z-index: 1;
   position: relative;
   overflow: hidden;

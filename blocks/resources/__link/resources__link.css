@@ -1,9 +1,9 @@
-.logo {
-  margin: 0;
+.resources__link {
   display: block;
+  margin: 0;
 }
 
-.logo:hover {
+.resources__link:hover {
   opacity: 0.3;
   transition: opacity 1s;
 }
